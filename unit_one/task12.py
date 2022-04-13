@@ -12,10 +12,24 @@
 #       3 — грамм
 #       4 — тонна
 #       5 — центнер
->4
+#>4
 
 #Введите  массу тела
->1
+#>1
 
-Ответ: 1000 кг
+#Ответ: 1000 кг
+
+ed_massa = str(input('edenica massu:'))
+massa_tela = float(input('vvedite massu tela:'))
+match ed_massa:
+    case '1':
+        print(massa_tela,'килограмм')
+    case '2':
+        print(massa_tela,'милиграмм')
+    case '3':
+        print(massa_tela,'грамм')
+    case '4':
+        print(massa_tela,'тонна')
+    case '5':
+        print(massa_tela,'центер')
 
