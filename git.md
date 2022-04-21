@@ -1,5 +1,5 @@
-+ git congig --global user.name dssdq
-+ git config --global user.email oagoth@yandex.ru
++ git congig --global user.name user_login
++ git config --global user.email user@mail.com
 
 + git config --list
 
@@ -22,7 +22,7 @@
 
 - git remote get-url origin # Проверка свызывания 
 
-- git remote remove origin  # Удаление свызывания  
+- git remote remove origin  # Удаление свызывания
 
 - git push origin master # Отправка изменений в удаленный репозиторий origin ветки master
 
