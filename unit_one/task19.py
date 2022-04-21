@@ -12,3 +12,4 @@ id = list(range(1,11))
 for index in range(len(id)):
     f.writelines(str(id[index]) + ';' + str(algoritm[index] + "\r"))
 
+f.close()
