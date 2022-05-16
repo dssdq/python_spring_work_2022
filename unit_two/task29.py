@@ -17,4 +17,4 @@ def transpose(matrix: list):
     return trans1, trans2
 
 print(transpose(list))
-
+#
